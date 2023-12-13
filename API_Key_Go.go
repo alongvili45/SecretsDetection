@@ -1,5 +1,6 @@
 func main() {
     apiKey := "1234567"
+    password := "5678"
 
     // Make an API call using the hardcoded API key
     response, err := http.Get("https://api.example.com/v1/data?apiKey=" + apiKey)
